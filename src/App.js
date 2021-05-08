@@ -1,12 +1,11 @@
 import React from "react"
 import './App.css';
-
-function App() {
+import Karan from './Karan'
+function App(props) {
   return (
-    <div>
-      
-    </div>
+    <>    
+    <Karan/>
+    </>
   );
 }
-
 export default App;
