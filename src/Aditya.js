@@ -5,7 +5,7 @@ import './App.css';
  class Aditya extends Component {
     render() {
         return (
-        <div className="">
+        <div>
            <MainCell name="Confirmed" ins="5632" total="5624" color="red"/>
            <MainCell name="Active" ins="5632" total="5624" color="blue"/>
            <MainCell name="Recovered" ins="5632" total="5624" color="green"/>

@@ -2,6 +2,7 @@ import React from 'react'
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
+import * as BiIcons from "react-icons/bi";
 
 export const SidebarData=[
     {
@@ -13,13 +14,13 @@ export const SidebarData=[
     {
         title:"Vaccine",
         path:'/vaccine',
-      icons: <IoIcons.IoIosPaper/>,
+      icons: <FaIcons.FaSyringe/>,
       cName:'nav-text'
     },
     {
         title:"Resources",
         path:'/resources',
-      icons: <FaIcons.FaCartPlus/>,
+      icons: <BiIcons.BiPhone/>,
       cName:'nav-text'
     },
     {
