@@ -11,7 +11,8 @@ function Karan() {
     return (
         <div>
     <Router>
-<Navbar/> 
+<Navbar
+        /> 
   <Switch>
     <Route path='/' exact component={Home} />   
     <Route path='/vaccine' component={Vaccine} />
