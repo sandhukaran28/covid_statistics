@@ -5,9 +5,11 @@ import './Maincell.css';
     
         return (
             <div id="maincell">
-                   <h4 style={{color: props.color}}>{props.name}</h4>
-                   <h5 style={{color: props.color}}>{props.ins}</h5>
-                   <h2 style={{color: props.color}}>{props.total}</h2>
+            <div id="inner">
+                   <h2 id="heading" style={{color: props.color}}>{props.name}</h2>
+                   <h2 id="middle" style={{color: props.color}}>{props.ins}</h2>
+                   <h2 id="end" style={{color: props.color}}>{props.total}</h2>
+                   </div>
                </div> 
            
         )

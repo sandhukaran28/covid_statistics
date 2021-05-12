@@ -4,7 +4,7 @@ import { NavItem, Table } from 'react-bootstrap';
 function MainTable(props) {
     return (
         <div>
-            <Table striped bordered hover>
+            <Table striped bordered hover variant="dark">
   <thead>
     <tr>
       <th>State/UT</th>
