@@ -1,9 +1,20 @@
 #maincell {
-    background-color: #282c34;
+    background-color: rgb(22,22,37);
   color: white;
-  padding: 40px;
+  margin-left: 80px;
+  margin-right:80px;
   font-family: Arial;
   text-align: center;
   display: inline-block;
-  
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#heading{
+  font-size: 17px;
+}
+#middle{
+  font-size: 14px;
+}
+#end{
+font-size: 40px;
 }

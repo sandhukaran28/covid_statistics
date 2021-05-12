@@ -1,7 +1,19 @@
 #mainDiv{
     display: flex;
     justify-content: center;
+    margin: auto;
 }
-.container1 {
-    
-  }
+#nav{
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+#carousel{
+  z-index: -1;
+}
+#back{
+  background-color: rgb(22,22,37);
+}
+#inner{
+  display:flexbox;
+}

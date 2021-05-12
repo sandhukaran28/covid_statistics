@@ -11,10 +11,13 @@ function Navbar() {
     return (
         <>
         <IconContext.Provider value={{color:'#fff'}}>
-            <div className="navbar">
+        <div style={{display:"flex"}}>
+            <div className="navbar" id="mainNav">
                 <Link to="#" className="menu-bars">
               <FaIcons.FaBars onClick={showSidebar}/>
                 </Link>
+            </div>
+            {/* <span id="logo">Covid Stats</span> */}
             </div>
             <nav className={sidebar ? 'nav-menu active':
             'nav-menu'}>

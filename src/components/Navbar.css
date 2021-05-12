@@ -1,9 +1,19 @@
 .navbar{
-    background-color: #060b26;
+    background-color: rgb(30,30,48);
     height: 80px;
     display: flex;
     justify-content: start;
     align-items: center;
+}
+#mainNav{
+    position: sticky;
+    top: 0;
+}
+#logo{
+    font-size: large;
+color: white;
+margin-right: auto;
+justify-content: end;
 }
 .menu-bars{
     margin-left: 2rem;
@@ -11,7 +21,7 @@
     background: none;
 }
 .nav-menu{
-     background-color: #060b26;
+     background-color: rgb(30,30,48);
     width: 250px;
     height: 100vh;
     display: flex;
