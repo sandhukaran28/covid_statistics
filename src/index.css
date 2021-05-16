@@ -7,3 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
 }
+/*#root{
+  margin-left: 5rem;
+}*/
+body::-webkit-scrollbar{
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+  background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb{
+  background: #6649b8;
+}
+:root{
+  --bg-primary:#23232e;
+  --bg-secondary:#141418;
+}

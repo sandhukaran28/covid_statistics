@@ -1,0 +1,42 @@
+#back{
+    align-items: center;
+    color: white;
+    background-color: #151d34;
+    height: max-content;
+}
+#mainBack{
+    background-color: #151d34;
+}
+.main{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #151d34;
+}
+#head{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#info{
+    background-color: #151d34;
+    color: #007bff;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+}
+#stateRes{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+  
+}
