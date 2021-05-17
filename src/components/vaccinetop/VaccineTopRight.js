@@ -1,11 +1,10 @@
 import React from 'react'
 import Video from '../videos/Vaccine.gif'
-
+import {Image} from 'react-bootstrap'
 function VaccineTopRight() {
     return (
         <div>
-            <img className="animated" src={Video} />
-            
+            <Image className="animated" src={Video} />  
         </div>
     )
 }
