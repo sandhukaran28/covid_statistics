@@ -1,0 +1,22 @@
+.VaccineBottom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.box{
+    padding-left: 50px;
+    padding-right: 50px ;
+}
+
+.vaccineheading{
+    font-weight: bold;
+    color:#fff;
+    padding-top: 20px;
+}
+
+.sectext{
+    color:#fff; 
+    font-weight: 400;
+}
