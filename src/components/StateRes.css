@@ -1,0 +1,23 @@
+#box:hover{
+    background-color:rgb(80, 77, 82);
+    text-decoration: none;
+}
+#box{
+width: 100%;
+margin: 16px;
+}
+#title{
+    color: rgb(155,120,222);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: .25rem;
+    font-weight: bolder;
+}
+#link{
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    width: 35rem;
+    word-wrap: break-word;
+    font-weight: bolder
+}

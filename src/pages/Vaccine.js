@@ -1,3 +1,4 @@
+
 import React from "react";
 import Aditya from "../Aditya";
 import Table from "../components/MainTable";
@@ -51,6 +52,7 @@ function Vaccine() {
       <Buttons/> */}
     </div>
   );
+
 }
 
 export default Vaccine;

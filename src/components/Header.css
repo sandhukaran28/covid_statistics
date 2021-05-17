@@ -1,0 +1,14 @@
+#covid{
+    color: rgb(155,120,222);
+    font-size: 100px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+p{
+    font-size: 22px;;
+}
+#headerDiv{
+    margin-bottom: 150px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
