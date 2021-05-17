@@ -1,6 +1,6 @@
 #covid{
     color: rgb(155,120,222);
-    font-size: 100px;
+    font-size: 8vw;
     font-weight: bolder;
     margin-bottom: 12px;
 }
@@ -9,6 +9,6 @@ p{
 }
 #headerDiv{
     margin-bottom: 150px;
-    margin-top: 40px;
+    margin-top: 150px;
     margin-left: 150px;
 }

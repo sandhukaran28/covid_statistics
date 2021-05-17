@@ -5,11 +5,19 @@ import './Stats.css'
  class Aditya extends Component {
     render() {
         return (
-        <div className="StatDiv">
+        <div className="row">
+        <div className="col-sm StatDiv">
            <MainCell name="Confirmed" ins="+5632" total="5624" color="rgb(248,7,58)"/>
+           </div>
+           <div className="col-sm StatDiv">
            <MainCell name="Active" ins="+5632" total="5624" color="rgb(0,122,253)"/>
+           </div>
+           <div className="col-sm StatDiv">
            <MainCell name="Recovered" ins="+5632" total="5624" color="rgb(39,161,68)"/>
+           </div>
+           <div className="col-sm StatDiv">
            <MainCell name="Deceased" ins="+5632" total="5624" color="rgb(108,117,125)"/>
+           </div>
     </div>
         )
     }

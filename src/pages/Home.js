@@ -11,7 +11,7 @@ import * as AiIcons from "react-icons/ai"
 import Drawer from '../components/MiniDrawer'
 function Home() {
     return (
-        <div id="Homeback" >
+        <div id="Homeback" className="container-fluid" >
           <div id="nav">
          <Drawer/>
          </div>
@@ -34,11 +34,14 @@ function Home() {
            <div>
            <Table/>
            </div>
-            <div id="carousel">
+           <div id="slogan">
+           <h2>WE'RE IN THIS TOGETHER  <BiIcons.BiHeart/>  </h2>
+           </div>
+            <div id="carousel" className="d-md-none d-sm-none d-lg-none d-xl-block">
         <MainCarousel/>
         </div> 
         </div>
-        <div className="outer_footer">
+        <div className="outer_footer"> 
         <div className="home_footer">
             <h3 className="footer_head">COVID  STATS</h3>
             <h5 className="footer_body">We stand with everyone fighting on the frontlines</h5>

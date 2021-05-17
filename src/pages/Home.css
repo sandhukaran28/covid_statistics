@@ -20,7 +20,7 @@ justify-content: center;
 display: flex;
 height: 50px;
 align-items: center;
-margin-bottom: 20px;
+
 font-weight: bold;
 }
 
@@ -37,13 +37,12 @@ margin-bottom: 50px;
   border-radius: 10px;
 }
 .mainContent{
-  margin-left: 150px;
+  margin-left: 200px;
   margin-right: 150px;
 }
 #carousel{
-  margin-top: 100px;
+  margin-top: 0px;
   z-index: -1;
-  height:fit-content;
   background-color:rgb(46, 42,47);
 }
 #Homeback{
@@ -95,8 +94,22 @@ font-size: 15px;
 .statHeadDiv{
   width: fit-content;
   background-color: rgb(80, 77, 82);
-  margin-left: 100px;
+  margin-left: 5%;
   margin-bottom: 50px;
   padding: 15px;
+  border-radius: 15px;
+}
+#slogan{
+  
+  display: flex;
+  justify-content: center;
+  margin-top:60px;
+}
+#slogan>h2{
+  background-color: rgb(80, 77, 82);
+  padding: 10px;
+  color: rgb(155,120,222);
+  font-weight: bolder;
+  font-size: 60;
   border-radius: 15px;
 }
