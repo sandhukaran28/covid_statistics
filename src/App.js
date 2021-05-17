@@ -4,7 +4,7 @@ import Karan from './Karan'
 function App(props) {
   return (
     <div>    
-      <Karan/>
+    <Karan/>
     </div>
   );
 }

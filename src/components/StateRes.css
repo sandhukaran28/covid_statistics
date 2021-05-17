@@ -1,23 +1,23 @@
 #box:hover{
-    background-color: #1E1E30;
-  
+    background-color:rgb(80, 77, 82);
+    text-decoration: none;
 }
 #box{
 width: 100%;
 margin: 16px;
 }
 #title{
-    color: #343a40;
+    color: rgb(155,120,222);
     font-size: 16px;
     font-weight: 600;
     margin-bottom: .25rem;
     font-weight: bolder;
 }
 #link{
-    color: #007bff;
+    color: white;
     font-size: 16px;
     margin: 0;
-    width: 100%;
+    width: 35rem;
     word-wrap: break-word;
     font-weight: bolder
 }

@@ -10,32 +10,32 @@ function Navbar() {
     const showSidebar=()=>setSidebar(!sidebar)
     return (
         <>
-        <IconContext.Provider value={{color:'#fff'}}>
+       
         <div id="outerDiv">
-        
             <div className="navbar" id="mainNav">
+            <IconContext.Provider value={{color:'#fff'}}>
                 <Link to="#" className="menu-bars">
-              <FaIcons.FaBars onClick={showSidebar}/>
+              <FaIcons.FaBars className="hamburgur" onClick={showSidebar}/>
                 </Link>
+                 </IconContext.Provider>
             </div>
-            <div id="logo">
-             <span>Covid Stats</span>
-             </div>
             </div>
             <nav className={sidebar ? 'nav-menu active':
             'nav-menu'}>
                  <ul className="nav-menu-items" onClick={showSidebar}>
                  <li className="navbar-toggle">
+                 <IconContext.Provider value={{color:'#fff'}}>
                      <Link to="#" className="menu-bars">
                          <AiIcons.AiOutlineClose/>
                      </Link>
+                     </IconContext.Provider>
                  </li>  
                  {SidebarData.map((item,index)=>{
                      return (
                          <li key={index} className={item.cName}>
                          <Link to={item.path}>
-                           {item.icons}
-                             <span>
+                           {item.icons} &nbsp;
+                             <span style={{marginLeft:"10px"}}>
                              {item.title}
                              </span>
                          </Link>
@@ -44,7 +44,7 @@ function Navbar() {
                  })}
                  </ul>
             </nav>
-            </IconContext.Provider>
+            
         </>
     )
 }

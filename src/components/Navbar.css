@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgb(30,30,48);
+    background-color: rgb(66,64,67);
     height: 80px;
     display: flex;
     justify-content: start;
@@ -9,11 +9,11 @@
     position: sticky;
     top: 0;
 }
-#logo{
-    font-size: large;
-color: white;
-background-color: red;
-margin-left:80%;
+.hamburgur{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .menu-bars{
     margin-left: 2rem;
@@ -21,7 +21,7 @@ margin-left:80%;
     background: none;
 }
 .nav-menu{
-     background-color: rgb(30,30,48);
+     background-color: rgb(66,64,67);
     width: 250px;
     height: 100vh;
     display: flex;
@@ -55,14 +55,15 @@ margin-left:80%;
     border-radius: 4px;
 }
 .nav-text a:hover{
-    background-color: #1a83ff;
+    background-color: rgb(80, 77, 82);
+    color:rgb(155,120,222);
 }
 .nav-menu-items{
    width: 100%;
 
 }
 .navbar-toggle{
-    background-color: rgb(30,30,48);
+    background-color: rgb(66,64,67);
     width: 100%;
     height: 80px;
     display: flex;

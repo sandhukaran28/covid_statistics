@@ -1,0 +1,12 @@
+#sideList:hover *{
+color:rgb(155,120,222) !important;
+}
+#textSafe{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: bolder;
+    color:rgb(155,120,222) !important;
+    margin-left: 10px;
+}

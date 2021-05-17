@@ -6,27 +6,21 @@ import * as BiIcons from "react-icons/bi";
 
 export const SidebarData=[
     {
-        title:"Home",
+        title:" Home",
         path:'/',
       icons: <AiIcons.AiFillHome/>,
       cName:'nav-text'
     },
     {
-        title:"Vaccine",
+        title:" Vaccine",
         path:'/vaccine',
       icons: <FaIcons.FaSyringe/>,
       cName:'nav-text'
     },
     {
-        title:"Resources",
+        title:" Resources",
         path:'/resources',
       icons: <BiIcons.BiPhone/>,
-      cName:'nav-text'
-    },
-    {
-        title:"Team",
-        path:'/team',
-      icons: <IoIcons.IoMdPeople/>,
       cName:'nav-text'
     }
     ]

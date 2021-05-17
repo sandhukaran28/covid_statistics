@@ -3,17 +3,100 @@
     justify-content: center;
     margin: auto;
 }
+body{
+  height: 100vh;
+}
 #nav{
   z-index: 1;
   position: sticky;
   top: 0;
 }
-#carousel{
-  z-index: -1;
+.linkRes{
+  width: 100%;
+  background-color: rgb(46,30,48);
+color: rgb(212,83,126);
+border-radius: 10px;
+justify-content: center;
+display: flex;
+height: 50px;
+align-items: center;
+margin-bottom: 20px;
+font-weight: bold;
 }
-#back{
-  background-color: rgb(22,22,37);
+
+.vacDiv{
+justify-content: center;
+display: flex;
+margin-bottom: 50px;
+}
+.vacDiv_span{
+  background-color: rgb(46,30,48);
+  color: rgb(212,83,126);
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.mainContent{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#carousel{
+  margin-top: 100px;
+  z-index: -1;
+  height:fit-content;
+  background-color:rgb(46, 42,47);
+}
+#Homeback{
+  background-color: rgb(46, 42,47);
+  margin-top: 0;
+  height:fit-content
+}
+#linkResSpan{
+  font-size: 19px;
 }
 #inner{
   display:flexbox;
+}
+.home_footer{
+  justify-content: center;
+  display: flex;
+flex-direction: column;
+padding-bottom: 50px;
+}
+.footer_head{
+  color: rgb(155,120,222);
+  font-size:xx-large;
+  font-weight: bolder;
+  margin-left: 60px;
+}
+.footer_body{
+  color: white;
+font-weight: bold;
+font-size: 15px;
+}
+.outer_footer{
+  display: flex;
+  justify-content: center;
+}
+.github{
+  color: white;
+  margin-left: 45%;
+  width: fit-content;
+}
+.github:hover{
+  color: rgb(155,120,222);
+}
+#statsHead{
+  color: rgb(155,120,222);
+  font-weight: bolder;
+  font-size: 60;
+  
+}
+.statHeadDiv{
+  width: fit-content;
+  background-color: rgb(80, 77, 82);
+  margin-left: 100px;
+  margin-bottom: 50px;
+  padding: 15px;
+  border-radius: 15px;
 }

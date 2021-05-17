@@ -1,10 +1,11 @@
 import React from 'react'
 import tableData from '../data/tableData'
 import { Table } from 'react-bootstrap';
+import './MainTable.css'
 function MainTable(props) {
     return (
         <div>
-            <Table responsive striped bordered hover variant="dark" >
+            <Table responsive bordered className="text-white">
   <thead>
     <tr>
       <th>State/UT</th>
