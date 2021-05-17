@@ -5,11 +5,12 @@ import StateRes from '../components/StateRes'
 import resources from '../data/StateData'
 import svg2 from '../pics/svg2.svg'
 import {Image} from 'react-bootstrap'
+import Drawer from '../components/MiniDrawer'
 function Resources() {
     return (
         <div className="resources" id="back">
         <div className="navDiv">
-             <Navbar />
+             <Drawer/>
              </div>
              <div  className="ResInner">
              <div className="Resmain">

@@ -16,7 +16,9 @@
     background-color: rgb(155,120,222,0.8);
 
     }
-
+#Vacback{
+    background-color:rgb(46, 42,47);
+}
 .yellowbtn{
     justify-content: center;
     font-weight: bold;

@@ -12,12 +12,12 @@ import VaccinationCell from "../components/VaccinationCell";
 import '../pages/Vaccine.css'
 import VaccineBottom from "../components/VaccineBottom";
 import VaccineTable from "../components/VaccineTable";
-
+import Drawer from '../components/MiniDrawer'
 function Vaccine() {
   return (
-    <div id="back">
+    <div id="Vacback">
       <div id="nav">
-        <Navbar />
+        <Drawer/>
       </div>
       <Vaccinetop />
       <div id="main">
