@@ -13,7 +13,7 @@ function MainCarousel() {
       <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
-          style={{height:"500px"}}
+          style={{height:"400px"}}
           src={pic1}
           alt="First slide"
         />
@@ -21,7 +21,7 @@ function MainCarousel() {
       <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
-          style={{height:"500px"}}
+          style={{height:"400px"}}
           src={pic2}
           alt="Second slide"
         />
@@ -29,7 +29,7 @@ function MainCarousel() {
       <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
-          style={{height:"500px"}}
+          style={{height:"400px"}}
           src={pic3}
           alt="Third slide"
         />
@@ -37,7 +37,7 @@ function MainCarousel() {
       <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
-          style={{height:"500px"}}
+          style={{height:"400px"}}
           src={pic4}
           alt="Fouth slide"
         />

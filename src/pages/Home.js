@@ -3,23 +3,26 @@ import Aditya from '../Aditya'
 import Table from '../components/MainTable'
 import './Home.css'
 import MainCarousel from '../components/Carousel'
-import Navbar from '../components/Navbar'
 import Header from '../components/Header'
 import {Link} from 'react-router-dom'
 import * as BiIcons from "react-icons/bi"
 import * as AiIcons from "react-icons/ai"
 import Drawer from '../components/MiniDrawer'
+import Swing from 'react-reveal/Swing';
+import RubberBand from 'react-reveal/RubberBand';
 function Home() {
     return (
-        <div id="Homeback" >
+        <div id="Homeback" className="container-fluid" >
           <div id="nav">
          <Drawer/>
          </div>
         <Header/>
         <div className="mainContent">
+        <Swing>
         <div className="statHeadDiv">
     <h1 id="statsHead">Statistics (INDIA)</h1>
     </div>
+    </Swing>
         <div>
            <Aditya className="container1"/>
            </div>
@@ -34,11 +37,16 @@ function Home() {
            <div>
            <Table/>
            </div>
-            <div id="carousel">
+           <RubberBand>
+           <div id="slogan">
+           <h2>WE'RE IN THIS TOGETHER  <BiIcons.BiHeart/>  </h2>
+           </div>
+           </RubberBand>
+            <div id="carousel" className="d-md-none d-sm-none d-lg-none d-xl-block">
         <MainCarousel/>
         </div> 
         </div>
-        <div className="outer_footer">
+        <div className="outer_footer"> 
         <div className="home_footer">
             <h3 className="footer_head">COVID  STATS</h3>
             <h5 className="footer_body">We stand with everyone fighting on the frontlines</h5>
