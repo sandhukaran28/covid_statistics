@@ -4,6 +4,8 @@ import image2 from '../pics/s2.svg'
 import image3 from '../pics/s3.svg'
 import '../components/VaccineBottom.css'
 import Buttons from "./Buttons";
+import Roll from 'react-reveal/Roll';
+import Bounce from 'react-reveal/Bounce';
 
 function VaccineBottom() {
     return (
@@ -11,7 +13,8 @@ function VaccineBottom() {
         <h2 style={{justifyContent:"center",textAlign:'center',paddingBottom:"50px"}} className="vaccineheading">How It Works</h2>
         <div className="VaccineBottom">
            <div className="vaccinebox">
-           <img style={{justifyContent: 'center'}} width="200px" src={image1}></img>
+           <Roll left>
+           <img style={{justifyContent: 'center'}} width="200px" src={image1}></img></Roll>
            <h4 className="vaccineheading">REGISTER YOURSELF</h4>
            <p className="sectext">Register using your Mobile<br />no. or Aadhaar no. or any<br />other Identity docs.</p>
            </div> 
@@ -21,7 +24,8 @@ function VaccineBottom() {
 
 
            <div className="vaccinebox">
-           <img style={{justifyContent: 'center'}} width="200px" src ={image2}/>
+           <Roll bottom>
+           <img style={{justifyContent: 'center'}} width="200px" src ={image2}/></Roll>
            <h4 className="vaccineheading">CHOOSE VACCINE LOCATION</h4>
            <p className="sectext">Select your nearby Vaccine<br />Center for vaccination</p>
            </div> 
@@ -29,12 +33,14 @@ function VaccineBottom() {
            <div className="box" />
 
            <div className="vaccinebox">
-           <img width="200px" src ={image3}/>
+           <Roll right>
+           <img width="200px" src ={image3}/></Roll>
            <h4 className="vaccineheading">CONFIRM YOUR SLOT</h4>
            <p className="sectext">Book your slot to Get<br />Vaccine</p>
            </div> 
            </div>
-           <Buttons />
+           <Bounce clear>
+           <Buttons /></Bounce>
         </div>
     )
 }

@@ -1,18 +1,14 @@
 
 import React from "react";
-import Aditya from "../Aditya";
-import Table from "../components/MainTable";
 import "./Vaccine.css";
-import Navbar from "../components/Navbar";
-import Banner from "../components/Banner";
-import Bannerdown from "../components/Bannerdown";
-import Buttons from "../components/Buttons";
 import Vaccinetop from "../components/VaccineTop.js";
 import VaccinationCell from "../components/VaccinationCell";
 import '../pages/Vaccine.css'
+import './Home.css'
 import VaccineBottom from "../components/VaccineBottom";
 import VaccineTable from "../components/VaccineTable";
 import Drawer from '../components/MiniDrawer'
+import * as AiIcons from "react-icons/ai"
 function Vaccine() {
   return (
     <div id="Vacback">
@@ -25,6 +21,13 @@ function Vaccine() {
            </div>
       <VaccineTable />
       <VaccineBottom />
+      <div className="outer_footer"> 
+      <div className="home_footer">
+            <h3 className="footer_head">COVID  STATS</h3>
+            <h5 className="footer_body">We stand with everyone fighting on the frontlines</h5>
+           <a target="blank" href="https://github.com/sandhukaran28/covid_statistics" ><h2 className="github"> <AiIcons.AiFillGithub/> </h2>
+           </a>  </div>
+           </div>
       {/* <div id="vaccinebutton">
         <li _ngcontent-gys-c25="" class="nav-item">
           <a

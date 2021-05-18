@@ -2,12 +2,14 @@ import React from 'react'
 import VaccineTopLeft from './vaccinetop/VaccineTopLeft'
 import VaccineTopRight from './vaccinetop/VaccineTopRight'
 import '../components/VaccineTop.css'
+import Fade from 'react-reveal/Fade';
 
 function Vaccinetop() {
     return (
         <div className="vaccinetop row">
         <div className='col-md'>
-           <VaccineTopLeft /> </div>
+           <Fade left>
+           <VaccineTopLeft /> </Fade> </div>
            <div className='col-md'>
            <VaccineTopRight /> </div>
         </div>

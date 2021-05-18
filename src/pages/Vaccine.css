@@ -44,3 +44,22 @@ a, a:hover {
     background-color: rgb(22,22,37);
   }
 
+
+.home_footer{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  }
+
+.footer_body{
+    color: white;
+  font-weight: bold;
+  font-size: 15px;
+  }
+.outer_footer{
+    padding-top: 95px;
+    display: flex;
+    justify-content: center;
+  }
+
