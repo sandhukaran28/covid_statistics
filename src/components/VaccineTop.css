@@ -1,8 +1,11 @@
 .vaccinetop{
     display: flex;
-    justify-content: center;
-    padding-top: 70px;
+    justify-content: space-evenly;
+    padding-top: 150px;
     padding-bottom: 70px;
+    margin-left: 10%;
+    margin-right: 5%;
+    
 }
 
 .VaccineTopLeft{
@@ -10,7 +13,7 @@
 
 }
 
-#gap{
+/* #gap{
     margin-left: 5%;
     margin-right: 5%;
-}
+} */

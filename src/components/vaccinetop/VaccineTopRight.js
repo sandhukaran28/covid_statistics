@@ -3,8 +3,8 @@ import Video from '../videos/Vaccine.gif'
 import {Image} from 'react-bootstrap'
 function VaccineTopRight() {
     return (
-        <div>
-            <Image className="animated" src={Video} />  
+        <div style={{paddingLeft:"5%"}}>
+            <Image  src={Video} />  
         </div>
     )
 }

@@ -5,10 +5,11 @@ import '../components/VaccineTop.css'
 
 function Vaccinetop() {
     return (
-        <div className="vaccinetop">
-           <VaccineTopLeft /> 
-           <div id="gap" />
-           <VaccineTopRight />
+        <div className="vaccinetop row">
+        <div className='col-md'>
+           <VaccineTopLeft /> </div>
+           <div className='col-md'>
+           <VaccineTopRight /> </div>
         </div>
     )
 }
