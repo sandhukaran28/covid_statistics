@@ -3,6 +3,7 @@ import tableData from '../data/tableData'
 import { Table } from 'react-bootstrap';
 import './MainTable.css'
 function MainTable(props) {
+  
     return (
         <div>
             <Table responsive bordered className="text-white">

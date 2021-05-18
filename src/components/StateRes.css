@@ -1,20 +1,20 @@
-#Statebox:hover{
+#StateboxCom:hover{
     background-color:rgb(80, 77, 82);
     text-decoration: none;
 }
-#Statebox{
+#StateboxCom{
 height: fit-content;
 width: fit-content;
 padding-left: 20px;
 }
-#Statetitle{
+#StatetitleCom{
     color: rgb(155,120,222);
     font-size: 16px;
     font-weight: 600;
     margin-bottom: .25rem;
     font-weight: bolder;
 }
-#Statelink{
+#StatelinkCom{
     color: white;
     font-size: 16px;
     margin: 0;
