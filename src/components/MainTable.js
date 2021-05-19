@@ -1,9 +1,62 @@
-import React from 'react'
-import tableData from '../data/tableData'
+import React from 'react';
+import tableData from '../data/tableData';
 import { Table } from 'react-bootstrap';
-import './MainTable.css'
-function MainTable(props) {
+import './MainTable.css';
+import axios from 'axios';
+
+class MainTable extends React.Component {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+      users: [],
+      isLoading: false,
+      isError: false
+    };
+  }
+
+  async componentDidMount() {
+    this.setState({ isLoading: true })
+    const response = await fetch('https://www.mohfw.gov.in/data/datanew.json')
+    if (response.ok) {
+      const users = await response.json()
+      this.setState({ users:users, isLoading: false })
+      console.log(users[2])
+    } else {
+      this.setState({ isError: true, isLoading: false })
+    }
+  }
+
+  renderTableRows = () => {
+    return this.state.users.map(user => {
+      if(user.state_name!='')
+      return (
+        <tr key={user.sno}>
+          <td>{user.state_name}</td>
+          <td>{user.positive.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+          <td>{user.active.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+          <td>{user.new_positive.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+          <td>{user.cured.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+          <td>{user.new_cured.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+          <td>{user.death.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+          <td>{user.new_death.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+      
+        </tr>
+      )
+    })
+  }
   
+  render(){
+    const { users, isLoading, isError } = this.state
+
+    if (isLoading) {
+      return <div>Loading...</div>
+    }
+
+    if (isError) {
+      return <div>Error</div>
+    }
+
     return (
         <div>
             <Table responsive bordered className="text-white">
@@ -12,33 +65,21 @@ function MainTable(props) {
       <th>State/UT</th>
       <th>Confirmed</th>
       <th>Active</th>
+      <th>New Cases</th>
       <th>Recovered</th>
+      <th>New Recovered</th>
       <th>Deceased</th>
-      <th>Tested</th>
-      <th>Vaccine Doses Administrated</th>
-      <th>Population</th>
+      <th>New Deceased</th>
+      
     </tr>
   </thead>
   <tbody>
- { tableData.map(function mapping(item){
-    return(
-      <tr>
-      <td>{item.state}</td>
-      <td>{item.confirmed}</td>
-      <td>{item.active}</td>
-      <td>{item.recovered}</td>
-      <td>{item.deceased}</td>
-      <td>{item.tested}</td>
-      <td>{item.doses}</td>
-      <td>{item.population}</td>
-    </tr>
-  )
-  })}
-    
+  {this.renderTableRows()}
   </tbody>
 </Table>
         </div>
     )
+  }
 }
 
 export default MainTable

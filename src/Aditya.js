@@ -19,7 +19,7 @@ import Axios from 'axios'
             changeConf(response.data.TT.total.confirmed.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
             changedeceased(response.data.TT.total.deceased.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
             changereovered(response.data.TT.total.recovered.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
-            
+            changeActive((response.data.TT.total.confirmed-response.data.TT.total.deceased-response.data.TT.total.recovered).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
             inchangeConf(response.data.TT.delta.confirmed.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
             inchangedeceased(response.data.TT.delta.deceased.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
             inchangereovered(response.data.TT.delta.recovered.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));

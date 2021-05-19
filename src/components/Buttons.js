@@ -3,8 +3,8 @@ import "../components/Buttons.css"
 
 function Buttons() {
   return (
-    <div className="buttons">
-      <div className="manual-link">
+    <div className="buttons row">
+      <div className="col-sm" id="manual-link">
         <a
           href="https://prod-cdn.preprod.co-vin.in/assets/pdf/User_Guide_Citizen%20registration_18+.pdf"
           download=""
@@ -15,7 +15,7 @@ function Buttons() {
         </a>
       </div>
       <div className="gap"/>
-      <div  className="manual-link cm-dos-link">
+      <div  className="col-sm" id="manual-link">
         <a
           href="https://prod-cdn.preprod.co-vin.in/assets/pdf/Dos_and_Donts_for_Citizens.pdf"
           download=""

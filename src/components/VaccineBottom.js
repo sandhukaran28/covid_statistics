@@ -11,28 +11,21 @@ function VaccineBottom() {
     return (
         <div >
         <h2 style={{justifyContent:"center",textAlign:'center',paddingBottom:"50px"}} className="vaccineheading">How It Works</h2>
-        <div className="VaccineBottom">
-           <div className="vaccinebox">
+        <div className="row" id="VaccineBottom">
+           <div className="col-md" id="vaccinebox">
            <Roll left>
            <img style={{justifyContent: 'center'}} width="200px" src={image1}></img></Roll>
            <h4 className="vaccineheading">REGISTER YOURSELF</h4>
            <p className="sectext">Register using your Mobile<br />no. or Aadhaar no. or any<br />other Identity docs.</p>
            </div> 
 
-
-           <div className="box" />
-
-
-           <div className="vaccinebox">
+           <div className="col-md" id="vaccinebox">
            <Roll bottom>
            <img style={{justifyContent: 'center'}} width="200px" src ={image2}/></Roll>
            <h4 className="vaccineheading">CHOOSE VACCINE LOCATION</h4>
            <p className="sectext">Select your nearby Vaccine<br />Center for vaccination</p>
            </div> 
-
-           <div className="box" />
-
-           <div className="vaccinebox">
+           <div  className="col-md" id="vaccinebox">
            <Roll right>
            <img width="200px" src ={image3}/></Roll>
            <h4 className="vaccineheading">CONFIRM YOUR SLOT</h4>
