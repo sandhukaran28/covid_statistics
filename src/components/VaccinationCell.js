@@ -35,11 +35,19 @@ class VaccinationCell extends Component {
         return <div>Error</div>
       }
     return (
-        <div style={{ display: "flex" , justifyContent: 'space-evenly'}}>
+        <div style={{marginLeft:"10%"}} className="row">
+        <div className="col-sm">
            <MainCell name="Tot Vaccination Doses" ins={this.state.stats.today} total={this.state.stats.total_doses} color="red"/>
+           </div>
+           <div  className="col-sm">
            <MainCell name="Dose-1 Vaccinations" ins={this.state.stats.today_dose_one} total={this.state.stats.tot_dose_1} color="blue"/>
+           </div>
+           <div  className="col-sm">
            <MainCell name="Dose-2 Vaccinations" ins={this.state.stats.today_dose_two} total={this.state.stats.tot_dose_2} color="green"/>
+           </div>
+           <div  className="col-sm">
            <MainCell name="AEFI Reported" ins={this.state.stats.today_aefi} total={this.state.stats.aefi} color="grey"/>
+           </div>
     </div>
         )}
 }

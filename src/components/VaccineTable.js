@@ -30,9 +30,9 @@ import '../components/VaccineTable.css'
         return (
           <tr key={user.title}>
             <td>{user.title}</td>
-            <td>{user.partial_vaccinated}</td>
-            <td>{user.totally_vaccinated}</td>
-            <td>{user.total}</td>
+            <td>{user.partial_vaccinated.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+            <td>{user.totally_vaccinated.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+            <td>{user.total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
           </tr>
         )
       })
@@ -52,7 +52,7 @@ import '../components/VaccineTable.css'
 
     return (
         <div className="vaccinetable">
-            <Table striped bordered hover variant="dark">
+            <Table  responsive striped bordered hover variant="dark" >
   <thead>
     <tr>
       <th>State/UT</th>

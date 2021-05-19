@@ -1,4 +1,4 @@
-.manual-link{
+#manual-link{
 margin-top: 10px;
 font-size: 21px;
 color: #002060;
@@ -20,6 +20,6 @@ border-radius: 5px;
 .gap{
     width: 2%;
 }
-.manual-link:hover{
+#manual-link:hover{
     background-color: #1E1E30;
 }
