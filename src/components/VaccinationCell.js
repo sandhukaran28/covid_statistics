@@ -38,6 +38,7 @@ class VaccinationCell extends Component {
         <div style={{marginLeft:"10%"}} className="row">
         <div className="col-sm">
            <MainCell name="Tot Vaccination Doses" ins={this.state.stats.today} total={this.state.stats.total_doses} color="red"/>
+         
            </div>
            <div  className="col-sm">
            <MainCell name="Dose-1 Vaccinations" ins={this.state.stats.today_dose_one} total={this.state.stats.tot_dose_1} color="blue"/>
