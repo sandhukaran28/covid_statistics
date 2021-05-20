@@ -3,7 +3,7 @@ import "../components/Buttons.css"
 
 function Buttons() {
   return (
-    <div className="buttons row">
+    <div className="buttons row" style={{paddingLeft:"15%",paddingRight:"15%",textAlign:"center",paddingTop:"2%"}}>
       <div className="col-sm" id="manual-link">
         <a
           href="https://prod-cdn.preprod.co-vin.in/assets/pdf/User_Guide_Citizen%20registration_18+.pdf"

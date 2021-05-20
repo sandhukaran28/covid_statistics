@@ -20,7 +20,7 @@ font-size: 30px;
 font-weight: bolder;
 }
 #maincell:hover{
-  background-color: rgb(80, 77, 82);
+  background-color:  rgb(80, 77, 82);
   border-radius: 15px;
-  width: 250px;
+  /* width: 250px; */
 }

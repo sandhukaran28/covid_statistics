@@ -28,31 +28,6 @@ function Vaccine() {
            <a target="blank" href="https://github.com/sandhukaran28/covid_statistics" ><h2 className="github"> <AiIcons.AiFillGithub/> </h2>
            </a>  </div>
            </div>
-      {/* <div id="vaccinebutton">
-        <li _ngcontent-gys-c25="" class="nav-item">
-          <a
-            _ngcontent-gys-c25=""
-            href="https://selfregistration.cowin.gov.in/"
-            target="_blank"
-            class="yellowbtn"
-          >
-            Get Vaccinated
-          </a>
-        </li>
-      </div>
-      <div>
-      
-      </div>
-
-      <div id="banner">
-        <Banner />
-      </div>
-
-
-      <div id="banner">
-        <Bannerdown />
-      </div>
-      <Buttons/> */}
     </div>
   );
 
