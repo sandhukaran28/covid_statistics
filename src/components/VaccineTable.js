@@ -25,6 +25,8 @@ import '../components/VaccineTable.css'
       }
     }
 
+    
+
     renderTableRows = () => {
       return this.state.users.map(user => {
         return (

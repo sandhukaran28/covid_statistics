@@ -11,7 +11,7 @@ function VaccineBottom() {
     return (
         <div >
         <h2 style={{justifyContent:"center",textAlign:'center',paddingBottom:"50px"}} className="vaccineheading">How It Works</h2>
-        <div className="row" id="VaccineBottom">
+        <div className="row" id="VaccineBottom" style={{paddingLeft:"10%",paddingRight:"10%",textAlign:"center",paddingTop:"2%"}}>
            <div className="col-md" id="vaccinebox">
            <Roll left>
            <img style={{justifyContent: 'center'}} width="200px" src={image1}></img></Roll>
@@ -33,7 +33,7 @@ function VaccineBottom() {
            </div> 
            </div>
            <Bounce clear>
-           <Buttons /></Bounce>
+           <Buttons  /></Bounce>
         </div>
     )
 }
