@@ -11,7 +11,7 @@ import Axios from 'axios'
     const[recovered,changereovered]=useState('0');
     const[deceased,changedeceased]=useState('0');
     const[inconf,inchangeConf]=useState('0');
-    const[inactive,inchangeActive]=useState('236045');
+    const[inactive,inchangeActive]=useState('2,36,045');
     const[inrecovered,inchangereovered]=useState('0');
     const[indeceased,inchangedeceased]=useState('0');
     const apiCall =()=>{
