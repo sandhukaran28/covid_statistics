@@ -10,10 +10,12 @@
 }
 #heading{
   font-size: 20px;
-  font-weight:normal;
+  font-weight:bold;
+
 }
 #middle{
   font-size: 16px;
+  font-weight: bold;
 }
 #end{
 font-size: 30px;

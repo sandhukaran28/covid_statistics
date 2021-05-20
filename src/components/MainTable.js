@@ -3,7 +3,8 @@ import tableData from '../data/tableData';
 import { Table } from 'react-bootstrap';
 import './MainTable.css';
 import axios from 'axios';
-
+import Spinner1 from '../pics/Spinner-3.gif'
+import {Image} from 'react-bootstrap'
 class MainTable extends React.Component {
 
   constructor(props) {
@@ -21,7 +22,6 @@ class MainTable extends React.Component {
     if (response.ok) {
       const users = await response.json()
       this.setState({ users:users, isLoading: false })
-      console.log(users[2])
     } else {
       this.setState({ isError: true, isLoading: false })
     }
@@ -50,11 +50,12 @@ class MainTable extends React.Component {
     const { users, isLoading, isError } = this.state
 
     if (isLoading) {
-      return <div>Loading...</div>
+      return<center><div>Loading....</div></center> 
+      
     }
 
     if (isError) {
-      return <div>Error</div>
+      return <div>Error...</div>
     }
 
     return (
