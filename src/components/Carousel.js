@@ -1,10 +1,10 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import pic1 from '../pics/pic1.jpg'
-import pic2 from '../pics/pic2.jpg'
+import pic1 from '../pics/STAY HOME.png'
+import pic2 from '../pics/STAY.png'
 import pic3 from '../pics/pic3.jpg'
-import pic4 from '../pics/pic4.jpg'
+import pic4 from '../pics/S.png'
 import './Carousel.css'
 function MainCarousel() {
     return (
