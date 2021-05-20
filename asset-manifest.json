@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.186b4874.chunk.css",
+    "main.js": "/static/js/main.67e534bf.chunk.js",
+    "main.js.map": "/static/js/main.67e534bf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1ca8c13e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1ca8c13e.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8f06ad34.chunk.js": "/static/js/2.8f06ad34.chunk.js",
+    "static/js/2.8f06ad34.chunk.js.map": "/static/js/2.8f06ad34.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.186b4874.chunk.css.map": "/static/css/main.186b4874.chunk.css.map",
+    "static/js/2.8f06ad34.chunk.js.LICENSE.txt": "/static/js/2.8f06ad34.chunk.js.LICENSE.txt",
+    "static/media/S.59c4fa20.png": "/static/media/S.59c4fa20.png",
+    "static/media/STAY HOME.7a6510e2.png": "/static/media/STAY HOME.7a6510e2.png",
+    "static/media/STAY.0ad78354.png": "/static/media/STAY.0ad78354.png",
+    "static/media/Spinner-3.b51df3f3.gif": "/static/media/Spinner-3.b51df3f3.gif",
+    "static/media/Vaccine.2c54eba7.gif": "/static/media/Vaccine.2c54eba7.gif",
+    "static/media/main.69611267.gif": "/static/media/main.69611267.gif",
+    "static/media/pic3.35c23255.jpg": "/static/media/pic3.35c23255.jpg",
+    "static/media/s1.89665931.svg": "/static/media/s1.89665931.svg",
+    "static/media/s2.0b6ede6d.svg": "/static/media/s2.0b6ede6d.svg",
+    "static/media/s3.3e90a143.svg": "/static/media/s3.3e90a143.svg",
+    "static/media/svg1.a03a40ae.svg": "/static/media/svg1.a03a40ae.svg",
+    "static/media/svg2.424b15c9.svg": "/static/media/svg2.424b15c9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ca8c13e.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8f06ad34.chunk.js",
+    "static/css/main.186b4874.chunk.css",
+    "static/js/main.67e534bf.chunk.js"
+  ]
+}
