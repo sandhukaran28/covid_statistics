@@ -9,10 +9,14 @@ function Vaccinetop() {
         <div className="vaccinetop row">
         <div className='col-md'>
            <Fade left>
-           <VaccineTopLeft /> </Fade> </div>
+           <VaccineTopLeft /> </Fade> 
+           </div>
+           <Fade right>
            <div className='col-md'>
            <VaccineTopRight /> </div>
+           </Fade>
         </div>
+        
     )
 }
 

@@ -32,7 +32,7 @@ function Home() {
                </div>
            </Link>
            <div className="vacDiv">
-               <span className="vacDiv_span"><BiIcons.BiCheckShield/>18,22,20,164 vaccine doses administered</span>
+               <span className="vacDiv_span"><BiIcons.BiCheckShield/>18,98,20,164 vaccine doses administered</span>
            </div>
            <div>
            <Table/>
