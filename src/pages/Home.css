@@ -76,6 +76,7 @@ font-size: 15px;
 .outer_footer{
   display: flex;
   justify-content: center;
+  padding-top: 10px !important;
 }
 .github{
   color: white;
