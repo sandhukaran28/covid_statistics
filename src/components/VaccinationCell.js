@@ -97,6 +97,7 @@ class VaccinationCell extends Component {
           />
         </div>
         <div className="col-sm">
+
           <MainCell
             name="AEFI Reported"
             ins={"+ "+this.state.today_aefi}
