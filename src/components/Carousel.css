@@ -5,4 +5,7 @@
     height: 400px;
     margin-bottom: 150px;
     z-index: -1;
+    box-shadow: 10px 10px 10px 10px #888888;
+    display: flex;
+    justify-content: center;
 }
