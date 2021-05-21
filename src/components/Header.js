@@ -18,7 +18,7 @@ function Header() {
             </Fade>
             <Fade right>
             <div className="col-md">
-            <Image className="animated" src={Video} />  
+            <Image fluid src={Video} />  
             </div>
             </Fade>
         </div>
